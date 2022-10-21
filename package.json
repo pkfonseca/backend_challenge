@@ -4,11 +4,16 @@
   "description": "A simple API REST",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "dev": "nodemon src/index.js"
   },
   "author": "Patrick Fonseca",
   "license": "ISC",
+
   "dependencies": {
     "express": "^4.18.2"
+  },
+
+  "devDependencies": {
+    "nodemon": "^2.0.20"
   }
 }
